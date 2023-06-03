@@ -23,6 +23,8 @@ public class PostController {
 	@GetMapping("/posts")
 	public List<Post> getall(){
 		List<Post> allPosts = postServices.getAllPosts();
+
+//		System.out
 		return allPosts;
 	}
 	
